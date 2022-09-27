@@ -1,4 +1,27 @@
-@import "./variables";
-@import "./base/normalize";
-@import "./components/page-header.scss";
-@import "./utils/placeholders";
+//utils styles
+@import './utils/vars';
+@import './utils/visualy-hidden';
+
+//base styles
+@import './base/reset';
+@import './base/base';
+@import './base/container';
+
+//layout styles
+@import './layouts/header';
+@import './layouts/navigation';
+@import './layouts/hero';
+@import './layouts/feature';
+@import './layouts/doing';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './layouts/portfolio';
+@import './layouts/form';
+
+
+//components styles
+@import './components/btn';
+@import './components/logo';
+@import './components/contacts';
+@import './components/socials';
