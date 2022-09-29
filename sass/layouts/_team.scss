@@ -1,6 +1,5 @@
 .team__section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @extend %section;
   background: var(--third-bg-color);
 }
 .team__title {

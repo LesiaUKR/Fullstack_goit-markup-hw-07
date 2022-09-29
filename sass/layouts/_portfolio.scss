@@ -1,21 +1,13 @@
-.container__portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  display: flex;
-  flex-wrap: wrap;
-}
 .portfolio__section {
   padding-bottom: 94px;
 }
 .portfolio__projects-list {
   display: flex;
   flex-wrap: wrap;
-}
+ }
 .portfolio__projects-item {
   margin-right: 30px;
+  margin-bottom: 30px;
 
  &:nth-child(3n + 3) {
     margin-right: 0px;
